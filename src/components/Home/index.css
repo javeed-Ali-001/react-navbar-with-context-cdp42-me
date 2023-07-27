@@ -1,0 +1,28 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+}
+.dark-theme {
+  background-color: #000000;
+}
+.light-theme {
+  background-color: #ffffff;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.home-img {
+  width: 200px;
+}
+.home-text-light {
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: #171f46;
+  font-weight: 900;
+}

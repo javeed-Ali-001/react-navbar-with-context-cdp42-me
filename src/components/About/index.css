@@ -1,0 +1,36 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+}
+.dark-bg {
+  background-color: #000000;
+}
+.light-bg {
+  background-color: #ffffff;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.home-img {
+  width: 200px;
+}
+.home-text-light {
+  font-family: 'Roboto';
+  font-size: 48px;
+
+  font-weight: 900;
+}
+
+.light-text {
+  color: #171f46;
+}
+
+.dark-text {
+  color: #ffffff;
+}
